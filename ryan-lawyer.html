@@ -8,18 +8,52 @@
 
    <h1>Ryan Lawyer </h1>
 
+  <div Navigation>
    <ul>
     <li><a href="about.asp">About</a></li>
     <li><a href="skills.asp">Skills</a></li>
-    <li><a href="experience.asp">Projects</a></li>
+    <li><a href="projects.asp">Projects</a></li>
     <li><a href="contact.asp">Contact</a></li>
   </ul>
+  </div>
 
-  <h4>AWS</h4><p>Managing cloud infrastructure</p>
+  <div Content>
+  <h4>AWS</h4>
+  <p>API Gateway<br>
+    Cloudformation<br>
+    CloudFront<br>
+    Lambda<br></p>
   <h4>Chef (configuration management)</h4><p>Server automation</p>
   <h4>Packer</h4><p>Image creation</p>
   <h4>Test Kichen and InSpec</h4><p>Integration testing</p>
   <h4>Build Deploy</h4><p>Microsoft Azure ADO<br>Octopus Deploy</p>
+</div>  
+
+
+<h3>Projects</h3>
+<h4>Re-Architecture AWS Infrastructure</h4>
+<P>Improved security and reliability by re-designing AWS architecture using VPCs, private/public subents, ALBs, NACLs, Security Groups, EC2 Instance Roles</P>
+<h4>Automation Processes</h4>
+<p>Introduced Chef for configuration management to automate server launched and removing all manual server configurations, eliminating human-error, greatly increasing deployment times.<br>
+Ability to launch entire development environments in minutes, reduced from weeks.<br>
+Allow for entire environemnt rebuilds nightly, as well as start/stop environments during non-business hours<br>
+Cost-savings, by creating processes to start/stop environments, reducing spend by more than 25%</p>
+<h4>Test Integrations</h4>
+<p>Implement Chef InSpec with Test-Kitchen for integration testing</p>
+<h4>CloudCustodian</h4>
+<p>Installation process, which conists of utilizing Docker and AWS ECS to laucnh and deploy CloudCustodian<br>
+Add policies to assist in maintaining AWS,  remove/alert of EBS volumes not attached to instances<br>
+Tag policy conformation/standards<br>
+Stopping and alerting of POC/test instances (long-running)</p>
+
+
+<div footer>
+  <p>Built and deployed using Jenkins<br>
+  Build ID: 2020.8.5<br>
+  Build Date: test<br>
+  </p>
+</div>
+</div>
 
 
 </body>
